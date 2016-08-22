@@ -1,0 +1,20 @@
+{
+  "name": "d3-server-render",
+  "version": "1.0.0",
+  "description": "A simple converter that render chart in server side and convert svg to png. using d3.js v4.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js data.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["d3.js","canvas","fabric","v4"],
+  "author": "ganezasan",
+  "license": "MIT",
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "canvas": "^1.4.0",
+    "d3": "^4.2.2",
+    "fabric": "^1.6.3",
+    "jsdom": "^9.4.2"
+  }
+}
